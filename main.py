@@ -3,8 +3,5 @@ app = FastAPI()
 
 @app.get("/")
 async def root() :
-    return {"message": "/Bagath"}
+    return {"name": "/Bagath"}
 
-@app.post("/")
-async def post():
-    return {"message":"Messaage back from post"}
